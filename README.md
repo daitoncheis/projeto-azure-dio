@@ -68,8 +68,4 @@ Na guia "Revisar + criar", validei as configurações e cliquei em "Criar".
 
 Após clicar em "Criar", a VM será provisionada (leva alguns minutos). Ao concluir, acesse a visão geral da VM e use o **IP público** para conectar-se via **Conexão de Área de Trabalho Remota (RDP)** com suas credenciais.
 
-## 💡 Dicas Essenciais
 
-* **Segurança:** Sempre restrinja o acesso RDP/SSH em ambientes de produção.
-* **Custos:** Desligue ou exclua a VM e seus recursos quando não estiver usando para evitar cobranças.
-* **Organização:** Use Grupos de Recursos para gerenciar seus recursos.
