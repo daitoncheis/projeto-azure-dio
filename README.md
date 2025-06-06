@@ -14,7 +14,7 @@ Este repositório documenta a criação e configuração de uma Máquina Virtual
 
 Acesse `portal.azure.com` e faça login.
 
-![Tela de Login no Portal do Azure](img/image_8eb98d.png)
+![Tela de Login no Portal do Azure](img/login)
 
 ### 2. **Iniciando a Criação da VM**
 
