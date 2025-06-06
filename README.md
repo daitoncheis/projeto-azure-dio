@@ -14,15 +14,15 @@ Este repositório documenta a criação e configuração de uma Máquina Virtual
 
 Acesse `portal.azure.com` e faça login.
 
-![Tela de Login no Portal do Azure](img/login.png)
+![Tela de Login no Portal do Azure](img/img1.png)
 
 ### 2. **Iniciando a Criação da VM**
 
 Busque por "Máquinas virtuais" no portal e clique em "+ Criar" > "Máquina virtual".
 
-![Pesquisando por Máquinas Virtuais no Azure](img/pesquisaVM.png)
+![Pesquisando por Máquinas Virtuais no Azure](img/img2.png)
 
-![Opções de Criação de Máquina Virtual](img/image_8e5452.png)
+![Opções de Criação de Máquina Virtual](img/img3.png)
 
 ### 3. **Configurações Básicas**
 
@@ -34,19 +34,19 @@ Defina os detalhes principais da sua VM:
 * **Região:** `South America - Brazil South`.
 * **Zona de Disponibilidade:** `Zona auto-selecionada (Zona 1)`.
 * **Tipo de Segurança:** `Computadores virtuais de inicialização confiável`.
-* **Imagem (SO)::** `Windows Server 2019 Datacenter - x64 Gen2`.
+* **Imagem (SO):** `Windows Server 2019 Datacenter - x64 Gen2`.
 * **Tamanho:** `Standard_D2s_v3 (2 vCPUs, 8 GiB memória)`.
 * **Conta de Administrador:** Defina `Nome de usuário` (`adminuser`) e `Senha`.
 
-![Detalhes do Projeto e Instância da VM](img/image_8e4d4e.png)
+![Detalhes do Projeto e Instância da VM](img/img7.png)
 
-![Configurações de Segurança, Imagem e Conta de Administrador](img/image_8e462a.png)
+![Configurações de Segurança, Imagem e Conta de Administrador](img/img8.png)
 
 ### 4. **Configurações de Discos**
 
 No separador "Discos", mantive as opções padrão, com `SSD Premium` para o disco do SO e a opção de `Excluir com VM` ativada.
 
-![Configurações de Discos da VM](img/image_8df314.png)
+![Configurações de Discos da VM](img/img9.png)
 
 ### 5. **Configurações de Rede**
 
@@ -54,15 +54,15 @@ No separador "Rede", o Azure configurou automaticamente a VNet, sub-rede e IP p�
 
 **Atenção:** Permitir RDP diretamente na internet é recomendado **apenas para testes**.
 
-![Configurações de Rede da VM e Portas de Entrada](img/image_8df2d8.png)
+![Configurações de Rede da VM e Portas de Entrada](img/img10.png)
 
 ### 6. **Revisar e Criar**
 
 Na guia "Revisar + criar", validei as configurações e cliquei em "Criar".
 
-![Resumo das Configurações da VM antes da Criação - Parte 1](img/image_8def50.png)
+![Resumo das Configurações da VM antes da Criação - Parte 1](img/img11.png)
 
-![Resumo das Configurações da VM antes da Criação - Parte 2](img/image_8def1a.png)
+![Resumo das Configurações da VM antes da Criação - Parte 2](img/img12.png)
 
 ### 7. **Aguardar Implantação e Acessar a VM**
 
