@@ -14,13 +14,13 @@ Este repositório documenta a criação e configuração de uma Máquina Virtual
 
 Acesse `portal.azure.com` e faça login.
 
-![Tela de Login no Portal do Azure](img/image_8eb98d.png)
+![Tela de Login no Portal do Azure](img/login.png)
 
 ### 2. **Iniciando a Criação da VM**
 
 Busque por "Máquinas virtuais" no portal e clique em "+ Criar" > "Máquina virtual".
 
-![Pesquisando por Máquinas Virtuais no Azure](img/image_8e6794.png)
+![Pesquisando por Máquinas Virtuais no Azure](img/pesquisaVM.png)
 
 ![Opções de Criação de Máquina Virtual](img/image_8e5452.png)
 
